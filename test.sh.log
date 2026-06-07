@@ -1057,3 +1057,285 @@ cc   writer.o -o writer
 The number of files are 10 and the number of matching lines are 10
 success
 Test of assignment assignment2 complete with success
+Running test with user karl
+-- Generating ;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/karl/assignment1/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Remove trailing newline
+Read this is a test from testfile.txt
+system() echo this is a test returned this is a test
+Remove trailing newline
+Read home is /home/karl from testfile.txt
+system() echo home is $HOME returned: home is /home/karl
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:28:test_systemcalls:PASS
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_calls
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Remove trailing newline
+Read this is a test from testfile.txt
+system() echo this is a test returned this is a test
+Remove trailing newline
+Read home is /home/karl from testfile.txt
+system() echo home is $HOME returned: home is /home/karl
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:28:test_systemcalls:PASS
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_calls
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:58:test_exec_calls:PASS
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_redirect_calls
+Remove trailing newline
+Read home is /home/karl from testfile.txt
+execv /bin/sh -c echo home is $HOME returned home is /home/karl
+Remove trailing newline
+Read home is $HOME from testfile.txt
+execv /bin/echo home is $HOME returned home is $HOME
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:72:test_exec_redirect_calls:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/assignment1/finder-app ~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.1.10 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Note: switching to '7e1bdd68ffeecb9ef476f87b791b61910e8c853c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Updating files:  11% (7046/63878)Updating files:  12% (7666/63878)Updating files:  13% (8305/63878)Updating files:  14% (8943/63878)Updating files:  15% (9582/63878)Updating files:  16% (10221/63878)Updating files:  17% (10860/63878)Updating files:  18% (11499/63878)Updating files:  19% (12137/63878)Updating files:  19% (12764/63878)Updating files:  20% (12776/63878)Updating files:  21% (13415/63878)Updating files:  22% (14054/63878)Updating files:  23% (14692/63878)Updating files:  24% (15331/63878)Updating files:  25% (15970/63878)Updating files:  26% (16609/63878)Updating files:  27% (17248/63878)Updating files:  28% (17886/63878)Updating files:  28% (18331/63878)Updating files:  29% (18525/63878)Updating files:  30% (19164/63878)Updating files:  31% (19803/63878)Updating files:  32% (20441/63878)Updating files:  33% (21080/63878)Updating files:  34% (21719/63878)Updating files:  35% (22358/63878)Updating files:  36% (22997/63878)Updating files:  36% (23258/63878)Updating files:  37% (23635/63878)Updating files:  38% (24274/63878)Updating files:  39% (24913/63878)Updating files:  40% (25552/63878)Updating files:  41% (26190/63878)Updating files:  41% (26352/63878)Updating files:  41% (26427/63878)Updating files:  42% (26829/63878)Updating files:  43% (27468/63878)Updating files:  44% (28107/63878)Updating files:  45% (28746/63878)Updating files:  45% (28786/63878)Updating files:  46% (29384/63878)Updating files:  47% (30023/63878)Updating files:  48% (30662/63878)Updating files:  49% (31301/63878)Updating files:  49% (31911/63878)Updating files:  50% (31939/63878)Updating files:  51% (32578/63878)Updating files:  52% (33217/63878)Updating files:  53% (33856/63878)Updating files:  54% (34495/63878)Updating files:  55% (35133/63878)Updating files:  55% (35144/63878)Updating files:  56% (35772/63878)Updating files:  57% (36411/63878)Updating files:  58% (37050/63878)Updating files:  59% (37689/63878)Updating files:  59% (37738/63878)Updating files:  60% (38327/63878)Updating files:  61% (38966/63878)Updating files:  62% (39605/63878)Updating files:  62% (40119/63878)Updating files:  63% (40244/63878)Updating files:  64% (40882/63878)Updating files:  65% (41521/63878)Updating files:  66% (42160/63878)Updating files:  67% (42799/63878)Updating files:  67% (42933/63878)Updating files:  68% (43438/63878)Updating files:  69% (44076/63878)Updating files:  70% (44715/63878)Updating files:  71% (45354/63878)Updating files:  72% (45993/63878)Updating files:  73% (46631/63878)Updating files:  74% (47270/63878)Updating files:  75% (47909/63878)Updating files:  76% (48548/63878)Updating files:  77% (49187/63878)Updating files:  78% (49825/63878)Updating files:  79% (50464/63878)Updating files:  80% (51103/63878)Updating files:  81% (51742/63878)Updating files:  82% (52380/63878)Updating files:  82% (52892/63878)Updating files:  83% (53019/63878)Updating files:  84% (53658/63878)Updating files:  85% (54297/63878)Updating files:  86% (54936/63878)Updating files:  87% (55574/63878)Updating files:  88% (56213/63878)Updating files:  88% (56221/63878)Updating files:  89% (56852/63878)Updating files:  90% (57491/63878)Updating files:  91% (58129/63878)Updating files:  92% (58768/63878)Updating files:  93% (59407/63878)Updating files:  93% (59447/63878)Updating files:  94% (60046/63878)Updating files:  95% (60685/63878)Updating files:  96% (61323/63878)Updating files:  97% (61962/63878)Updating files:  98% (62601/63878)Updating files:  99% (63240/63878)Updating files:  99% (63667/63878)Updating files: 100% (63878/63878)Updating files: 100% (63878/63878), done.
+Checking out version v5.1.10
+HEAD is now at 7e1bdd68f Linux 5.1.10
+Adding the Image in outdir
+Creating the staging directory for the root filesystem
+Cloning into 'busybox'...
+Note: switching to '1_33_1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at bcc5b0e6c Bump version to 1.33.1
+Library dependencies
+./manual-linux.sh: line 66: aarch64-none-linux-gnu-readelf: command not found
+[0;31mValidation Error:manual-linux script failed with 1[0m
+~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+~/assignment1/finder-app ~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+Kick off qemu in the background
+Wait for app to finish
+Missing kernel image at /tmp/aesd-autograder/Image
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+Validation failed with error list :manual-linux script failed with 1:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
+Running test with user karl
+-- Generating ;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/karl/assignment1/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Remove trailing newline
+Read this is a test from testfile.txt
+system() echo this is a test returned this is a test
+Remove trailing newline
+Read home is /home/karl from testfile.txt
+system() echo home is $HOME returned: home is /home/karl
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:28:test_systemcalls:PASS
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_calls
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/karl/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Remove trailing newline
+Read this is a test from testfile.txt
+system() echo this is a test returned this is a test
+Remove trailing newline
+Read home is /home/karl from testfile.txt
+system() echo home is $HOME returned: home is /home/karl
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:28:test_systemcalls:PASS
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_calls
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:58:test_exec_calls:PASS
+Running tests at /home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_redirect_calls
+Remove trailing newline
+Read home is /home/karl from testfile.txt
+execv /bin/sh -c echo home is $HOME returned home is /home/karl
+Remove trailing newline
+Read home is $HOME from testfile.txt
+execv /bin/echo home is $HOME returned home is $HOME
+/home/karl/assignment1/assignment-autotest/test/assignment3/Test_systemcalls.c:72:test_exec_redirect_calls:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/assignment1/finder-app ~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.1.10 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Note: switching to '7e1bdd68ffeecb9ef476f87b791b61910e8c853c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Updating files:  11% (7407/63878)Updating files:  12% (7666/63878)Updating files:  13% (8305/63878)Updating files:  14% (8943/63878)Updating files:  15% (9582/63878)Updating files:  16% (10221/63878)Updating files:  17% (10860/63878)Updating files:  18% (11499/63878)Updating files:  19% (12137/63878)Updating files:  20% (12776/63878)Updating files:  20% (13102/63878)Updating files:  21% (13415/63878)Updating files:  22% (14054/63878)Updating files:  23% (14692/63878)Updating files:  24% (15331/63878)Updating files:  25% (15970/63878)Updating files:  26% (16609/63878)Updating files:  27% (17248/63878)Updating files:  28% (17886/63878)Updating files:  28% (18483/63878)Updating files:  29% (18525/63878)Updating files:  30% (19164/63878)Updating files:  31% (19803/63878)Updating files:  32% (20441/63878)Updating files:  33% (21080/63878)Updating files:  34% (21719/63878)Updating files:  35% (22358/63878)Updating files:  36% (22997/63878)Updating files:  36% (23131/63878)Updating files:  37% (23635/63878)Updating files:  38% (24274/63878)Updating files:  39% (24913/63878)Updating files:  40% (25552/63878)Updating files:  41% (26190/63878)Updating files:  41% (26349/63878)Updating files:  41% (26424/63878)Updating files:  42% (26829/63878)Updating files:  43% (27468/63878)Updating files:  43% (27733/63878)Updating files:  44% (28107/63878)Updating files:  45% (28746/63878)Updating files:  46% (29384/63878)Updating files:  47% (30023/63878)Updating files:  48% (30662/63878)Updating files:  49% (31301/63878)Updating files:  49% (31404/63878)Updating files:  50% (31939/63878)Updating files:  51% (32578/63878)Updating files:  52% (33217/63878)Updating files:  53% (33856/63878)Updating files:  54% (34495/63878)Updating files:  54% (34790/63878)Updating files:  55% (35133/63878)Updating files:  56% (35772/63878)Updating files:  57% (36411/63878)Updating files:  58% (37050/63878)Updating files:  58% (37478/63878)Updating files:  59% (37689/63878)Updating files:  60% (38327/63878)Updating files:  61% (38966/63878)Updating files:  62% (39605/63878)Updating files:  62% (39734/63878)Updating files:  63% (40244/63878)Updating files:  64% (40882/63878)Updating files:  65% (41521/63878)Updating files:  66% (42160/63878)Updating files:  67% (42799/63878)Updating files:  67% (43241/63878)Updating files:  68% (43438/63878)Updating files:  69% (44076/63878)Updating files:  70% (44715/63878)Updating files:  71% (45354/63878)Updating files:  71% (45737/63878)Updating files:  72% (45993/63878)Updating files:  73% (46631/63878)Updating files:  74% (47270/63878)Updating files:  75% (47909/63878)Updating files:  75% (48267/63878)Updating files:  76% (48548/63878)Updating files:  77% (49187/63878)Updating files:  78% (49825/63878)Updating files:  79% (50464/63878)Updating files:  79% (50789/63878)Updating files:  80% (51103/63878)Updating files:  81% (51742/63878)Updating files:  82% (52380/63878)Updating files:  83% (53019/63878)Updating files:  84% (53658/63878)Updating files:  85% (54297/63878)Updating files:  86% (54936/63878)Updating files:  87% (55574/63878)Updating files:  88% (56213/63878)Updating files:  88% (56221/63878)Updating files:  89% (56852/63878)Updating files:  90% (57491/63878)Updating files:  91% (58129/63878)Updating files:  92% (58768/63878)Updating files:  93% (59407/63878)Updating files:  94% (60046/63878)Updating files:  95% (60685/63878)Updating files:  96% (61323/63878)Updating files:  97% (61962/63878)Updating files:  97% (62493/63878)Updating files:  98% (62601/63878)Updating files:  99% (63240/63878)Updating files: 100% (63878/63878)Updating files: 100% (63878/63878), done.
+Checking out version v5.1.10
+HEAD is now at 7e1bdd68f Linux 5.1.10
+Adding the Image in outdir
+Creating the staging directory for the root filesystem
+Cloning into 'busybox'...
+Note: switching to '1_33_1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at bcc5b0e6c Bump version to 1.33.1
+Library dependencies
+./manual-linux.sh: line 66: aarch64-none-linux-gnu-readelf: command not found
+[0;31mValidation Error:manual-linux script failed with 1[0m
+~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+~/assignment1/finder-app ~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+Kick off qemu in the background
+Wait for app to finish
+Missing kernel image at /tmp/aesd-autograder/Image
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/assignment1/assignment-autotest/test/assignment3 ~/assignment1
+Validation failed with error list :manual-linux script failed with 1:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
